@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body { background-color: rgb(255, 255, 255);
+    
+}
+.borda { border: solid; border-radius: 10px; width: 100px;height: 7vh; color: rgb(0, 0, 0); margin: auto; box-shadow: 0; transition: box-shadow 0.5s, transform 0.5s;}
+.borda:hover{
+    transform: scale(1.2);
+    box-shadow: 15px 30px 40px rgba(0,0,0,0.2);
+}
+#naometais {
+    background-color: #34ee3d;
+}
+#fundoHe { background-color: rgb(71, 117, 245);
+
+}
+tr {
+    text-align: center;
+  }
+
+div{
+    text-align: left;
+    color: black;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    padding: 40px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: black;
+}
+
+br{
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+#fundoBranco {
+    background-color: rgb(255, 255, 255);
+}
+
+.bordabranca {border: solid; width: 100px;height: 7vh; color: rgb(255, 255, 255); margin: auto;}
+
+#fundolantaideos{
+    background-color: rgb(127, 255, 255);
+}
+
+#metaisalcalino {
+    background-color: rgb(255, 145, 0);
+}
+
+#metaisalcalinoT{
+    background-color: rgb(255, 238, 0);
+}
+
+#metaisalcalinoTr{
+    background-color: rgb(245, 113, 152);
+}
+
+#halogenio{
+    background-color: rgb(30, 148, 245);
+}
+
+#semimetais {
+    background-color: rgb(27, 204, 115);
+}
+
+#latanideos {
+    background-color: rgb(0, 255, 255);
+}
+
+#actinideos {
+    background-color: rgb(238, 129, 229);
+}
+.bordalegendaNM {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: #34ee3d; margin: auto;}
+#fundonm {background-color: #34ee3da8;}
+
+.bordalegendaMA {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(255, 145, 0); margin: auto;}
+#fundoMA {background-color: rgba(255, 145, 0, 0.603);}
+
+.bordalegendaSE {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(27, 204, 115); margin: auto;}
+#fundose {background-color: rgba(27, 204, 115, 0.733);}
+
+.bordalegendaOM {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(30, 148, 245); margin: auto;}
+#fundoOM {background-color: rgba(30, 148, 245, 0.527);}
+
+.bordalegendaL {border: solid; border-radius: 5px; width: 20px;height: 5vh; color:  rgb(127, 255, 255);margin: auto;}
+#fundoL {background-color: rgba(127, 255, 255, 0.651);}
+
+.bordalegendaGS {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(71, 117, 245); margin: auto;}
+#fundoGS {background-color: rgba(71, 117, 245, 0.726);}
+
+.bordalegendaMAT {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(255, 238, 0); margin: auto;}
+#fundoMAT {background-color: rgba(255, 238, 0, 0.692);}
+
+.bordalegendaH {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(0, 255, 255); margin: auto;}
+#fundoH {background-color: rgba(0, 255, 255, 0.623) ;}
+
+.bordalegendaMT {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(245, 113, 152); margin: auto;}
+#fundoMT {background-color: rgba(245, 113, 153, 0.712);}
+
+.bordalegendaAC {border: solid; border-radius: 5px; width: 20px;height: 5vh; color: rgb(238, 129, 229); margin: auto;}
+#fundoAC {background-color: rgba(238, 129, 229, 0.705);}
